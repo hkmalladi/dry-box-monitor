@@ -4,7 +4,7 @@ import time
 
 sleep = 15
 
-key = 'EW2LDPHO42P399DK'
+key = 'Enter your ThingSpeak API key'
 
 while True:
     h,t = dht.read_retry(dht.DHT22, 4)
